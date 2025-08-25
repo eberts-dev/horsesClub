@@ -206,7 +206,7 @@ aside {
 
 	.btn--secondary {
 		color: var(--color-main);
-		background-color: var(--color--main-light);
+		background-color: var(--color-main-light);
 		opacity: 0.9;
 	}
 
@@ -351,4 +351,11 @@ aside {
 		rotate: 360deg;
 		transform: translateX(62px);
   }
+}
+
+@media (width: 375px) {
+	.header__title-position-center, 
+	.header__title-position--right {
+		justify-content: center;
+	}
 }
