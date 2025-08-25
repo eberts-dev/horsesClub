@@ -1,0 +1,63 @@
+:root {
+	--color-main: #313131;
+	--color-main-light: #ffffff;
+	--color-secondary: #1f1f1f;
+	--color-primary: #f54932;
+	--color-subtitle: #3057A2;
+	--color-secondary-hover: #fbce51;
+	--color-header-background: #e9ded4; 
+	--color-disabled: #D6D6D6;
+	--color-table-border: #D0D0D0;
+	--color-first-child: #666;
+	--color-last-child: #333;
+
+	--spacing-md: 1rem; 
+	--spacing-lg: 1.5rem; 
+	--spacing-xl: 2rem; 
+	--spacing-2xl: 3rem; 
+	--spacing-3xl: 4rem;
+
+	--padding-tb: 1.125rem;
+	--padding-lr: 3.0625rem;
+
+	--pt-20: 1.25rem;
+	--pt-24: 1.5rem;
+	--pt-26: 1.625rem;
+	--pt-40: 2.5rem;
+	--pt-60: 3.75rem;
+	--pt-80: 5rem;
+
+	--pb-20: 1.25rem;
+	--pb-40: 2.5rem;
+	--pb-48: 3rem;
+	--pb-62: 3.875rem;
+	--pb-72: 4.5rem;
+	--pb-64: 4rem;
+	--pb-132: 8.25rem;
+
+	--mt-28: 1.75rem;
+	--mt-60: 3.75rem;
+	--mt-200: 12.5rem;
+	
+	--mb-20: 1.25rem;
+	--mb-54: 3.375rem;
+	--mb-140: 8.75rem;
+	--mb-200: 12.5rem;
+
+	/* Типографика */
+	--font-family-primary: 'Merriweather', serif;
+	--font-family-secondary: 'Golos Text', sans-serif;
+
+	--font-size-sm: 0.875rem; 
+	--font-size-base: 1rem; 
+	--font-size-lg: 1.125rem; 
+	--font-size-2x: 1.25rem; 
+	--font-size-22: 1.375rem; 
+	--font-size-24: 1.5rem; 
+	--font-size-3x: 2.25rem; 
+	--font-size-4x: 3rem; 
+	--font-size-5x: 3.375rem;
+	--font-size-6xl: 3.75rem; 
+
+	--container-padding: var(--spacing-md);
+}

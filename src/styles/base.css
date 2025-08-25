@@ -1,0 +1,47 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	font-size: 16px;
+	scroll-behavior: smooth;
+}
+
+h1 {
+	font-size: var(--font-size-6xl);
+	font-family: var(--font-family-primary);
+	text-transform: uppercase;
+	font-weight: normal;
+}
+
+p {
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+	color: var(--color-primary);
+	display: inline-block;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+	display: block;
+	width: 100%;
+}
+
+input,
+textarea,
+select {
+	font-family: inherit;
+	font-size: var(--font-size-base);
+	padding: var(--spacing-sm);
+	border: var(--border-width-thin) solid var(--color-gray-300);
+	border-radius: var(--border-radius-md);
+	transition: border-color var(--transition-fast);
+}
