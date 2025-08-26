@@ -16,7 +16,7 @@ $(document).ready(function() {
     $('.stages__dots-wrapper .owl-dot').removeClass('active').eq(current).addClass('active');
   }
   
-  // настройки OwlCarousel для stages (мобильная версия)
+  // настройки OwlCarousel
   $slider.owlCarousel({
     loop: false,
     items: 1,
